@@ -8,7 +8,7 @@
     height: 50%;
     width: 50%;
 }
-p{
+.p1{
     color: white;
     background-color: red;
     font-size: 25px;
@@ -25,3 +25,9 @@ p{
     height: 50%;
     background-color: rgb(255,0,0);
 }
+.flex-container {
+    display: flex;
+  }
+  .flex-item {
+      height: 25px;
+  }
