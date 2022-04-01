@@ -166,6 +166,6 @@ ul a {
     padding: 3px 5px;
     -moz-appearance: textfield;
 }
-.card .selectprofissao:hover{
+.card .selectcard:hover{
     border: 2px solid rgb(255, 100,0);
 }
