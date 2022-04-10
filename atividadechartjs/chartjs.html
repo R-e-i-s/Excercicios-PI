@@ -22,7 +22,7 @@
     </div>
   </body>
   <script>
-    /* GRÁFICO DE LINHAS*/
+    // GRÁFICO DE LINHAS
 
     const labels_linha = ["12:00", "13:00", "14:00", "15:00", "16:00", "17:00"];
 
@@ -50,9 +50,9 @@
       options: {},
     };
 
-    /* FIM GRÁFICO DE LINHAS */
+    // FIM GRÁFICO DE LINHAS
 
-    /* GRÁFICO DE BARRAS */
+    // GRÁFICO DE BARRAS
 
     const labels_barra = [
       "Janeiro",
@@ -86,12 +86,17 @@
       data: data_barra,
       options: {},
     };
+
+    // FIM DO GRÁFICO DE BARRAS
   </script>
   <script>
     const gflinha = new Chart(
       document.getElementById("canvasLinha"),
       config_linha
     );
-    const gfbarra = new Chart(document.getElementById("canvasBarra"), config_barra);
+    const gfbarra = new Chart(
+      document.getElementById("canvasBarra"),
+      config_barra
+    );
   </script>
 </html>
